@@ -823,8 +823,20 @@ hr{
     /* left: 700px; */
 }
 
-
-
+@media screen and (max-width:900px){
+    #testimonial{
+        display: grid;
+        height: 50%;
+        overflow: hidden;
+        /* place-items: center;
+        text-align: center;
+        padding: 50px; */
+    }   
+    .testimonials-heading {
+        display: none;
+     
+    }
+}
 /* services page */
 .services-card{
     margin: 20px 0;
