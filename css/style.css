@@ -833,6 +833,7 @@ hr{
         padding: 50px; */
     }   
     .testimonials-heading {
+	    font-size:0;
         display: none;
      
     }
