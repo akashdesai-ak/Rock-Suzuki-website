@@ -72,7 +72,7 @@
                             aria-expanded="false" href="#">Workshop <i class="fa-solid fa-angle-down"></i></a>
                         <div class="dropdown-menu" aria-labelledby="workshop">
                             <!-- <a class="dropdown-item" href="services.html">Services</a> -->
-                            <a class="dropdown-item" href="geniune-parts.html">Geniune Parts</a>
+                            <a class="dropdown-item" href="geniune-parts.html">Service Center</a>
 
                         </div>
                     </li>
@@ -200,12 +200,12 @@
                 <div class="modal-header bg-purple">
                     <img src="./assets/logos/logo2-edited.png" class="img-fluid mt-2" width="20px" alt="">
                     <h5 class="modal-title ml-1" id="my-modal-title">ROCK SUZUKI</h5>
-                    <button class="close" data-dismiss="modal" aria-label="Close">
+                    <button class="close" data-dismiss="modal" id="close" aria-label="Close">
                         <span aria-hidden="true" class="text-white">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form name="myForm" action="#" class="form-group p-5">
+                    <form name="myForm"  action="#" class="form-group p-5">
                         <h3 class="text-center">Send a Enquiry</h3>
                         <input type="text" id="name" name="name" placeholder="Your Name*"
                             class="form-control col-sm- mb-2" required>
@@ -238,7 +238,7 @@
             <div class="row pt-5">
                 <div class="col-md-6 col-xl-6 col-sm-12 p-4 ">
                     <div class="about-img">
-                        <img src="./assets/about-gix-main.jpg" class="img-fluid" alt="Gixxer SF">
+                        <img src="./assets/2016-Suzuki-V-Strom-650-ABS-DL650-Red-1024x683.jpg" class="img-fluid" alt="Gixxer SF">
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-6 col-sm-12 p-4 about-text-card">
@@ -303,7 +303,7 @@
         <p class="featured-heading ml-5">Features</p>
         <div class="container-fluid">
             <h3 class="text-uppercase font-weight-bold pt-3 text-center ">Featured bikes</h3>
-                <div class="d-flex justify-content-center mb-4 ">
+                <div class="d-flex justify-content-center mb-4 Featured-bike-img">
                     <img src="./assets/katana-home-cover-1080x1050.jpg" width="500px"  class="rounded img-fluid"   alt="katana">
                 </div>
         </div>
@@ -380,7 +380,7 @@
                             <img src="./assets/user-icons/man.png" alt=""></div>
                         <div class="content">
                             <div class="title">
-                                Abdul</div>
+                                Reshu Patel</div>
                             <!-- <div class="sub-title">
                             Graphic Designer</div> -->
                             <p>
@@ -395,7 +395,7 @@
                             <img src="./assets/user-icons/woman.png" alt=""></div>
                         <div class="content">
                             <div class="title">
-                                Reshu Patel</div>
+                                Adbul</div>
                             <!-- <div class="sub-title">
                             Web Developer</div> -->
                             <p>
@@ -427,6 +427,10 @@
 
         <!-- Testimonials End -->
 
+  <!-- Back to top button -->
+  <button type="button" class="btn btn-lg" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
 
         <!-- TODO: Footer -->
         <div class="container-fluid footer bg-purple pt-2 pb-3 ">
@@ -456,7 +460,7 @@
                     </div>
                     <div class="col-md-3 col-xl-3 col-sm-12">
                         <p class="h4 font-weight-bold text-red">Finance Facility Available</p>
-                        <div class="overflow-hidden d-flex">
+                        <div class=" d-flex">
                             <img src="./assets/bank-logos/SBI-logo-3089684347" class="img-fluid" width="60px" alt="">
                             <img src="./assets/bank-logos/HDFC-LOGO-228670659" class="img-fluid bg-light" width="50px"
                                 alt="">
@@ -464,6 +468,7 @@
                                 width="50px" alt="">
                             <img src="./assets/bank-logos/logo-bajaj-1724633919" class="img-fluid" width="50px" alt="">
                             <img src="./assets/bank-logos/capital-first" class="img-fluid" width="50px" alt="">
+                            <img src="./assets/bank-logos/bandhan-bank" class="img-fluid" width="70px" alt="">
                         </div>
                     </div>
                 </div>
@@ -480,6 +485,7 @@
 
         <script src="./js/counter.js"></script>
         <script src="./js/swiper.min.js"></script>
+        <script src="./js/BackToTop.js"></script>
         <script>
             $(".slider").owlCarousel({
                 loop: true,
