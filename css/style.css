@@ -369,7 +369,7 @@ body {
     font-weight: bolder;
     margin-left: 10px;
     opacity: 0.1;
-    position: absolute;
+    position: relative;
     /* left: 700px; */
 }
 /* .Featured-bike-img{
@@ -391,7 +391,6 @@ body {
         opacity: 0.1;
     }
 }
-
 .counter{
     /* color: #fff; */
   margin-top: 25px;
@@ -752,6 +751,7 @@ hr{
 .slider{
     max-width: 1100px;
     display: flex;
+    margin: auto;
   }
   .slider .card{
     flex: 1;
@@ -817,7 +817,8 @@ hr{
     height: 100%;
     place-items: center;
     text-align: center;
-    padding: 50px;
+    /* padding: 50px; */
+    margin-bottom: 50px;
 }
 
 .testimonials-heading {
@@ -976,7 +977,7 @@ hr{
     padding: 50px 20px !important ;
 }
 .contact-container h5{
-    color: var(--purple);
+    color: var(--purple-dark);
     position: relative;
     font-weight: bold;
     font-size: 30px;
@@ -999,8 +1000,8 @@ hr{
    width: 80%;
     outline: none !important;
     border: none;
-    border-bottom: 1px solid var(--purple);
-    opacity: 0.3;
+    border-bottom: 1px solid #23147563;
+   
 }
 
 
@@ -1116,3 +1117,6 @@ color: white;
 
 }
 
+.carousel-inner img {
+    margin: auto !important;
+  }
