@@ -755,7 +755,7 @@ hr{
   }
   .slider .card{
     flex: 1;
-    margin: 0 10px;
+    margin: 0 30px;
     background: var(--purple);
     color: var(--white);
   }
