@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- icon -->
+    <link rel="shortcut icon" href="assets/logos/logo2-edited.png" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS Animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <title>Rocks Suzuki</title>
+</head>
+
+<body>
+
+    <!-- TODO: navbar -->
+    <nav class="navbar navbar-expand-lg pt-3 pb-3 navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"> <img src="./assets/logos/logo.jpg" alt="ROCK SUZUKI"> </a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="my-nav" class="collapse navbar-collapse mr-5">
+            <ul class="navbar-nav ml-auto navbar-right ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About Us</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown" id="Products" aria-haspopup="true"
+                        aria-expanded="false">Products <i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="Products">
+                        <a class="dropdown-item" href="motorcycles.html">Motorcycles</a>
+                        <a class="dropdown-item" href="scooters.html">Scooters</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" id="workshop" aria-haspopup="true" aria-expanded="false"
+                        href="#">Workshop <i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="workshop">
+                        <a class="dropdown-item" href="workshop.html">Service Center</a>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+        <!-- <div class="d-flex flex-column ml-2 ">
+                <a href="mailto:info@rocksuzuki.com "><i class="fa-solid fa-envelope"></i> info@rocksuzuki.com</a>
+                <a href="tel:+91 9892215820"><i class="fa-solid fa-phone"></i> +91 9892215820</a>
+            </div> -->
+    </nav>
+    <!-- navbar end -->
+
+        
+        <!-- TODO: Geniune parts page -->
+        <div class="container-fluid ">
+        <!-- <p class="header h2 text-white text-center pt-4 pb-4">Geniune parts</p> -->
+        <div class="d-flex justify-content-center mb-4">
+        <!-- <video src="./assets/videos/SUZUKI GENUINE PARTS (MOTORCYCLE).mp4" class="img-fluid" loop autoplay muted controls ></video> -->
+        <!-- <iframe width="900" height="500" src="https://www.youtube.com/embed/EI31GsAaw8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <img src="./assets/workshop-image.jpg" class="img-fluid" alt="">
+    </div>
+
+        </div>
+        <!-- Geniune parts page end -->
+
+
+        <div class="d-flex justify-content-center">
+            <a href="tel:+91 9892215820"> <button class="btn-test-ride">Book a test ride</button></a>
+         </div>
+        
+    <!-- TODO: Footer -->
+    <div class="container-fluid footer bg-purple pt-2 pb-3 ">
+        <div class="container mt-5">
+            <p class="h4 font-weight-bold ">CONTACT US:</p>
+            <div class="row">
+                <div class="col-md-3 col-xl-3 col-sm-12">
+                    <p class="h4 font-weight-bold text-red">SHOWROOM</p>
+                    <p class="">76, 78, Mirza Galib Road, Byculla Clare Road Mumbai - 400008, Maharashtra, India (W)
+                    </p>
+                    <p>Phone: +91 9699618998 / +91 9833244662</p>
+                </div>
+                <div class="col-md-3 col-xl-3 col-sm-12">
+                    <p class="h4 font-weight-bold text-red">WORKSHOP</p>
+                    <p class="mb-3">124, Sardar Balwant Singh Dhori Marg, Nasbit Road, Opp. Mazgaon Garden, Mazgaon,
+                        Mumbai
+                        - 400010 (W)</p>
+                    <p>Call : 022 2375 2203 / 04</p>
+                </div>
+                <div class="col-md-3 col-xl-3 col-sm-12">
+                    <p class="h4 font-weight-bold text-red">ONLINE ASSISTANCE</p>
+                    <p class="mb-2" style="line-height : 2.2em;">Website: www.rocksuzuki.com</p>
+                    <p> Email: info@rockuzuki.com</p>
+                    <p> Email: sales@rocksuzuki.com</p>
+                    <p> Email: service@rocksuzuki.com</p>
+
+                </div>
+                <div class="col-md-3 col-xl-3 col-sm-12">
+                    <p class="h4 font-weight-bold text-red">Finance Facility Available</p>
+                    <div class=" d-flex">
+                        <img src="./assets/bank-logos/SBI-logo-3089684347" class="img-fluid" width="60px" alt="">
+                        <img src="./assets/bank-logos/HDFC-LOGO-228670659" class="img-fluid bg-light" width="50px"
+                            alt="">
+                        <img src="./assets/bank-logos/ICICI-Bank-logo-1697268096" class="img-fluid bg-light"
+                            width="50px" alt="">
+                    </div>
+                    <div class="d-flex mt-1">
+                        <img src="./assets/bank-logos/logo-bajaj-1724633919" class="img-fluid" width="50px" alt="">
+                        <img src="./assets/bank-logos/capital-first" class="img-fluid" width="50px" alt="">
+                        <img src="./assets/bank-logos/bandhan-bank" class="img-fluid" width="70px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="copyrite" class="bg-purple-dark pt-3 pb-1 text-white ">
+        <p class="text-center">
+            &copy All Right Reserved. Designed by Moonstone Conceptss
+        </p>
+    </div>
+    <!-- Footer End-->
+
+    </body>
+    </html>
