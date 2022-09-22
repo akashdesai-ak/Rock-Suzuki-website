@@ -139,12 +139,19 @@ body {
 }
 
 
-@media screen and (max-width:900px){
+@media screen and (max-width:600px){
+    .btn-enquiry{
+        position: relative;
+        left: 20%;
+    }    
+}
+@media screen and (min-width:600px )and (max-width:650px)  {
     .btn-enquiry{
         position: relative;
         left: 30%;
     }    
 }
+
 
 .btn-enquiry span {
 
