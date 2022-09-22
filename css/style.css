@@ -7,7 +7,7 @@
 :root {
     --purple: #41309D  !important;
     --white: #fff !important;
-    --red : #E20A17 !important;
+    --red : #DF2E28 !important;
     --purple-dark: #221475 !important;
 }
 
@@ -128,7 +128,7 @@ body {
     color: #fff;
     font-weight: 700;
     font-size: 15px;
-    background-color: var(--purple);
+    background-color: var(--red);
     padding: 17px 60px;
     margin-left: calc(100%-40%);
     margin-top: -20px;
@@ -173,7 +173,7 @@ body {
     top: 0;
     height: 490%;
     width: 140%;
-    background: var(--purple-dark);
+    background: #aa0b16;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
@@ -190,13 +190,13 @@ body {
 
 @keyframes shadow {
     0%{
-        box-shadow: 5px 5px 0 0 var(--purple-dark);
+       transform: scale(1.1);
     }
     50%{
-        box-shadow: 0 0px 0 0 var(--purple-dark);
+        transform: scale(1.0);
     }
     100%{
-        box-shadow: 5px 5px 0 0 var(--purple-dark);
+        transform: scale(1.1);
     }
     
 }
