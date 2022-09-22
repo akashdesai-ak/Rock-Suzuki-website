@@ -1132,3 +1132,36 @@ color: white;
     margin: auto !important;
   }
 
+
+
+.btn-test-ride{
+    background-color: var(--red);
+    color: var(--white);
+    padding: 10px 30px;
+    border: none;
+    margin: 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    animation: floating 3s ease-in-out infinite;
+    text-transform: uppercase;
+}
+
+.btn-test-ride:hover{
+    background-color: #aa0b16;
+}
+
+
+@keyframes floating {
+    0%{
+       transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.0);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+    
+}
