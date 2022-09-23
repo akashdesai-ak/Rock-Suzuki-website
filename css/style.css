@@ -128,7 +128,7 @@ body {
     position: relative;
     color: #fff;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 20px;
     background-color: var(--red);
     padding: 17px 60px;
     margin-left: calc(100%-40%);
@@ -139,6 +139,10 @@ body {
     animation: shadow 3s ease-in-out infinite;
 }
 
+.btn-enquiry{
+    text-transform: none !important;
+    font-size: 15px !important;
+}
 
 @media screen and (max-width:600px){
     .btn-enquiry{
@@ -155,17 +159,19 @@ body {
 
 
 .btn-enquiry span {
-
+    font-size: 18px;
     position: relative;
     z-index: 1;
     transition: all .5s ease-in-out;
-
 }
 
 .btn-enquiry:hover {
     color: var(--white);
 }
-
+.link-enquiry:hover{
+    
+    text-decoration: none;
+}
 .btn-enquiry:after {
 
     content: "";
